@@ -110,12 +110,3 @@
         ngpios = <8>;
     };
 };
-
-&spi2 {
-    nice_view: st7735s@0 {
-        compatible = "zmk,nice-view";
-        reg = <0>;
-        label = "DISPLAY";
-        rotation = <180>;
-    };
-};
