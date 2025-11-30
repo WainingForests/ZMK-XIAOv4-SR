@@ -25,6 +25,10 @@ nice_view_spi: &spi2 {
     cs-gpios = <&gpio0 31 GPIO_ACTIVE_HIGH>;
 };
 
+&nice_view {
+    rotation = <180>;
+};
+
 / {
     chosen {
         zephyr,display = &nice_view;
