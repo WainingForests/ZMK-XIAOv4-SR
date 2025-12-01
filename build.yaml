@@ -24,7 +24,9 @@ include:
 #     shield: lily58_right
   - board: seeeduino_xiao_ble
     shield: skreecustom_left nice_view_adapter nice_view
+        snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: skreecustom_right
+        snippet: zmk-usb-logging
 #  - board: seeeduino_xiao_ble
 #    shield: settings_reset 
