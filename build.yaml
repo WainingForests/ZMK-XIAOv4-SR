@@ -26,5 +26,10 @@ include:
     shield: skreecustom_left nice_view_adapter nice_view
   - board: seeeduino_xiao_ble
     shield: skreecustom_right nice_view_adapter nice_view
+  - board: seeeduino_xiao_ble
+    shield: skreecustom_left nice_view_adapter nice_view
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_PAW3395_LOG_LEVEL_DBG=y -DCONFIG_PAW3395_INIT_POWER_UP_EXTRA_DELAY_MS=5000
+    artifact-name: skreecustom_left_paw3395_debug
 #  - board: seeeduino_xiao_ble
 #    shield: settings_reset 
