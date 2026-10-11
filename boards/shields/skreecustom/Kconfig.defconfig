@@ -6,6 +6,12 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config PAW3395
+    default y
+
+config PAW3395_REPORT_INTERVAL_MIN
+    default 8
+
 endif
 
 if SHIELD_SKREECUSTOM_LEFT || SHIELD_SKREECUSTOM_RIGHT
@@ -25,14 +31,8 @@ config ZMK_POINTING_SMOOTH_SCROLLING
 config SPI
     default y
 
-config PMW3610
+config INPUT
     default y
-
-config PMW3610_SWAP_XY
-    default y
-
-config PMW3610_REPORT_INTERVAL_MIN
-    default 8
 
 config ZMK_RGB_UNDERGLOW_EXT_POWER
     default n
